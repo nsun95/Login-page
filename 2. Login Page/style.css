@@ -1,0 +1,239 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: white;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 {
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.above {
+    height: 250px;
+    width: 100%;
+    box-sizing: border-box;  /*s tem fiksiramo višino škatle!!!*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0.1%;
+    font-weight: 100;
+}
+
+.p2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.main {
+    background-color: rgb(245, 245, 245);
+    margin-left: auto;
+    margin-right: auto;
+    height: 370px;
+    width: 400px;
+
+    display:flex;
+    flex-direction: column;
+    border-style: none;
+    border-width: 2px;
+    border-radius: 4px;
+
+    box-shadow: 0px 4px 12px rgba(186, 186, 186); /*alpha .. zadnja vrednost v rgba pomeni prosojnost*/;
+
+    box-sizing: border-box;
+
+}
+
+.img2 {
+    height: 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 300px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color: rgb(250, 255, 185);
+    border-radius: 2px;
+    padding-left: 10px;
+    border-color: rgb(203, 205, 200);
+    color: rgb(126, 126, 117);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-style: solid;
+
+}
+
+input:hover {
+    border-color: rgb(203, 205, 200);
+}
+
+button {
+    width:300px;
+    height: 40px;
+    padding-top: 5px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(70, 137, 245);
+    border-style: none;
+}
+
+button:hover {
+    cursor:pointer;
+    border-color: rgb(203, 12, 12); /*ZAKAJ BARVA OVKIRJA NI RDEČA????*/
+    /*border:solid rgb(48, 47, 47); pri oblikovanju borderja gumbov barvo nastavi poleg borderja in ne pod border-color*/
+    border-width: 1px; 
+    box-shadow: 0px 4px 12px rgba(186, 186, 186)
+}
+
+.button1 {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link1 {
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.submain {
+    margin-top: 13px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 400px;
+
+    display:flex;
+    flex-direction: column;
+
+}
+
+.link2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.p3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+
+.img3 {
+    height: 27px;
+    padding-top: 0px;
+}
+
+.footer {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color:rgb(203, 205, 200);
+    box-sizing: border-box;
+
+}
+
+.a_left_footer {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.language_bar {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#logos {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 400px;
+    display: flex;
+}
+
+#test {
+    padding-left: 80px;
+}
+
+
+.sublogo {
+    margin: 1px;
+
+
+}
+
+.subfooter_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.subfooter_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.language_bar {
+    min-width: 150px;
+
+}
+
+.language_bar:hover {
+    box-shadow: 0px 4px 12px rgb(116, 115, 116);
+    background-color: rgb(250, 255, 185);
+}
+
